@@ -1,0 +1,17 @@
+[SddmGreeterTheme]
+Name=CrystalBlissX
+
+Description=CrystalBlissX lockscreen based off of elarun. \nThe original theme is based on work of Roman Shtylman & Nuno Pinheiro
+Type=sddm-theme
+Author=Adam Fazil, Reza Fatahilah Shah
+Copyright=(c) 2013, Reza Fatahilah Shah
+Screenshot=elarun.jpg
+License=GPL
+Version=0.1
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=elarun
+Theme-API=2.0
+Website=https://github.com/sddm/sddm
+QtVersion=6
