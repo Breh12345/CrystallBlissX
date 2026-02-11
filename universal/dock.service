@@ -1,0 +1,13 @@
+[Unit]
+Description=Run my task on boot and wake
+After=network.target
+Wants=network.target
+
+[Service]
+Type=oneshot
+ExecStartPre=nwggrid-server
+ExecStart=crystal-dock
+
+[Install]
+WantedBy=multi-user.target suspend.target hibernate.target sleep.target
+

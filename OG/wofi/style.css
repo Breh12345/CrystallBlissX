@@ -1,0 +1,112 @@
+/* =========================
+   Window
+   ========================= */
+window {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #444;
+    background-color: #1e1e1e;
+    border-radius: 6px;
+}
+
+/* =========================
+   Outer box
+   ========================= */
+#outer-box {
+    padding: 0;
+    margin: 0;
+}
+
+/* =========================
+   Input box (CRITICAL)
+   ========================= */
+#input-box {
+    padding: 0;        /* THIS removes the gap */
+    margin: 0;
+}
+
+/* =========================
+   Inner box (list container)
+   ========================= */
+#inner-box {
+    spacing: 0;        /* no space between children */
+    padding: 0;
+    margin: 0;
+}
+
+/* =========================
+   Input (rect1.png)
+   ========================= */
+#input {
+    background-image: url("g20.png");
+    background-repeat: no-repeat;
+    background-size: 300px 30px;
+    background-position: 0 0;
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    min-height: 23px;
+    max-height: 23px;
+
+    padding: 4px 4px 4px 106px;
+    font-size: 12px;
+    color: #000000;
+
+    margin: 0;
+}
+
+/* Kill focus visuals */
+#input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* =========================
+   Scroll
+   ========================= */
+#scroll {
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================
+   Entries
+   ========================= */
+#entry {
+    padding: 4px 6px;
+    margin: 0;
+    color: #ffffff;
+}
+
+#entry:selected {
+    background-color: #3b82f6;
+}
+
+/* =========================
+   Text
+   ========================= */
+#text {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+/* =========================
+   Icons
+   ========================= */
+#img {
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+/* =========================
+   Remove separators
+   ========================= */
+separator {
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
