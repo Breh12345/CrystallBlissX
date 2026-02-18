@@ -1,12 +1,11 @@
 [Unit]
-Description=Run my task on boot and wake
+Description=Keep Dock running
 After=network.target
 Wants=network.target
 
 [Service]
 Type=oneshot
-ExecStartPre=nwggrid-server
-ExecStart=crystal-dock
+ExecStart=cairo-dock
 
 [Install]
 WantedBy=multi-user.target suspend.target hibernate.target sleep.target
