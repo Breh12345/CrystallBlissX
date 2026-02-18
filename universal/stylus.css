@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after,
+html,
+body,
+input,
+textarea,
+select,
+button {
+    font-family: "Bahnschrift", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
+    font-feature-settings:
+    font-variation-settings: "wght" 400 !important;
+}
